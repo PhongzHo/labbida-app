@@ -1,15 +1,14 @@
+import React, {useState} from 'react';
 import './App.css';
-import {Navbar, Carousel} from './components';
+import {Navbar, Carousel, Ticker, AboutUs} from './components';
 
 function App() {
   return (
-    <main>
-      <div className="bg-black w-full overflow-hidden"> 
+    <main className="bg-black w-full overflow-hidden">
       <Navbar />
-      </div>
-      <div className="max-w-[1400px] h-[780px] w-full m-auto py-2 relative">
       <Carousel />
-      </div>
+      <Ticker />
+      <AboutUs />
     </main>
   )
       

@@ -1,10 +1,12 @@
 import { useState } from "react"
+import {BsChevronCompactLeft,BsChevronCompactRight} from 'react-icons/bs'
+import {RxDotFilled} from 'react-icons/rx'
 import React from 'react'
 
 const Carousel = () => {
-  const Slides = [
+  const slides = [
     {
-      url: "https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-6/404982921_122128058426040371_7456027956878797639_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=pKhrYsVxpmMAX-2FSia&_nc_ht=scontent.fsgn5-11.fna&oh=00_AfDDnVs91AXhbgXl5HQJXNxQf2xbYp2FlnaObfkmTHWl1Q&oe=6571E0AD"
+      url: "https://images.unsplash.com/photo-1534463868211-1203a5c900a9?q=80&w=2706&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       url: "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/399693433_122126921138040371_3521745544702845787_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=lTgbY-AW_pEAX95LTLy&_nc_ht=scontent.fsgn5-5.fna&oh=00_AfCYITW6rW08vXJBOK-cnFdjYiG4FgnzmvlOeD6v4eRqAQ&oe=6572DC24"
@@ -15,11 +17,47 @@ const Carousel = () => {
     {
       url: "https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/405160692_122129048192040371_4013936127249113815_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_ohc=hSdL4NRexvkAX_tAmF1&_nc_ht=scontent.fsgn5-10.fna&oh=00_AfBACNNKtnxwKkcnJ8A3c4DMXmvl8JlWYBFKxCnXoQpT0g&oe=65731A3D"
     },
-  ]
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(3)
+
+  const prevSlide = () => {
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex)
+  }
+
+  const nextSlide = () => {
+    const isLastSlide = currentIndex === slides.length - 1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  }
+
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex);
+  }
 
   return (
-    <div className="w-full h-full rounded-2xl bg-center bg-cover duration-500">
-    Carousel
+    <div className="bg-black h-[780px] w-full px-6 py-6 m-auto relative group">
+      <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className="w-full h-full rounded-2xl bg-center bg-cover duration-500">
+      </div>
+      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+      <BsChevronCompactLeft onClick={prevSlide} style={30} />
+      </div>
+      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+      <BsChevronCompactRight onClick={nextSlide} style={30} />
+      </div>
+      <div className="flex justify-center py-1">
+        {slides.map((slide, slideIndex) => (
+          <div 
+          key={slideIndex}
+          onClick={() => {goToSlide(slideIndex)}}
+          className="text-white text-2xl cursor-pointer"
+          >
+            <RxDotFilled />
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
