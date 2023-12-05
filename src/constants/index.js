@@ -4,11 +4,11 @@ export const navLinks = [
         title:"Trang chủ",
     },
     {
-        id:"aboutUs",
-        title:"Giới thiệu",
+        id:"news",
+        title:"Tin Tức",
     },
     {
-        id:"contactAndjob",
+        id:"contactJob",
         title:"Liên hệ và tuyển dụng",
     },
     {
