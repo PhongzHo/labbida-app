@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/labbida-app/static/css/main.e4f59505.css",
-    "main.js": "/labbida-app/static/js/main.dfe17969.js",
+    "main.css": "/labbida-app/static/css/main.20206bd2.css",
+    "main.js": "/labbida-app/static/js/main.92e3f4b3.js",
     "static/js/787.9b77ee9c.chunk.js": "/labbida-app/static/js/787.9b77ee9c.chunk.js",
     "static/media/nhanVien.svg": "/labbida-app/static/media/nhanVien.81d77a27f3492d0a47ce8117bb845e19.svg",
     "static/media/lababoutus.svg": "/labbida-app/static/media/lababoutus.b2d5a8692c4eed3593cfa088d109856b.svg",
@@ -12,12 +12,12 @@
     "static/media/logoAlliex.svg": "/labbida-app/static/media/logoAlliex.8b6a118c138522f90b395f0923d64dd6.svg",
     "static/media/helix.svg": "/labbida-app/static/media/helix.0bb4254239d05983b7b34be3113ff718.svg",
     "index.html": "/labbida-app/index.html",
-    "main.e4f59505.css.map": "/labbida-app/static/css/main.e4f59505.css.map",
-    "main.dfe17969.js.map": "/labbida-app/static/js/main.dfe17969.js.map",
+    "main.20206bd2.css.map": "/labbida-app/static/css/main.20206bd2.css.map",
+    "main.92e3f4b3.js.map": "/labbida-app/static/js/main.92e3f4b3.js.map",
     "787.9b77ee9c.chunk.js.map": "/labbida-app/static/js/787.9b77ee9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4f59505.css",
-    "static/js/main.dfe17969.js"
+    "static/css/main.20206bd2.css",
+    "static/js/main.92e3f4b3.js"
   ]
 }
