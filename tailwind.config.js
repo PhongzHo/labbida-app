@@ -4,8 +4,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      color: {
-        primary: "#00040f",
+      colors: {
+        'primary': '#00040f',
       },
       animation: {
         "loop-scroll": "loop-scroll 25s linear infinite",

@@ -4,6 +4,9 @@ import aramith from "./aramith.svg";
 import helix from "./helix.svg";
 import pba from "./pba.svg";
 import logoAlliex from "./logoAlliex.svg";
+import labAboutus from "./lababoutus.svg";
+import nhanVien from './nhanVien.svg';
+import ctrinh1 from './ctrinh1.jpg';
 
 export {
     logo,
@@ -11,5 +14,8 @@ export {
     aramith,
     helix,
     pba,
-    logoAlliex
+    logoAlliex,
+    labAboutus,
+    nhanVien,
+    ctrinh1,
 }
