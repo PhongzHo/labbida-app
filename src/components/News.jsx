@@ -15,7 +15,7 @@ function NewsGrid() {
 
 const News = () => {
   return (
-    <div className=''>
+    <div className='bg-black'>
         <div className='border rounded border-white p-2 mx-6 justify-center relative flex cursor-default text-white text-3xl font-semibold'>
         Tin tức và Sự Kiện
         </div>

@@ -1,5 +1,5 @@
 import Home from "./Home";
-import News from "./News";
+import NewsPage from "./News";
 import ContactJob from "./ContactJob";
 import Library from "./Library";
 import Member from "./Member";
@@ -7,7 +7,7 @@ import Member from "./Member";
 
 export {
     Home, 
-    News,
+    NewsPage,
     ContactJob,
     Library,
     Member,
