@@ -12,7 +12,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/labbida-app" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/api/news" element={<NewsPage />} />
+          <Route path="/news" element={<NewsPage />} />
           <Route path="/contactJob" element={<ContactJob />} />
           <Route path="/library" element={<Library />} />
           <Route path="/member" element={<Member />} />
@@ -23,3 +23,5 @@ function App() {
 }
 
 export default App;
+
+

@@ -3,10 +3,10 @@ import { ctrinh1 } from '../assets';
 
 function NewsGrid() {
     return (
-        <div className='columns-2 border-b-2 border-r-2 border-white'>
-            <img src={ctrinh1} className='p-2' alt='news-ctrinh-trung-thuong'/>
-            <div className='text-white'>
-                Info news is here!!!
+        <div className='columns-2 mb-3'>
+            <img src={ctrinh1} className='pb-1 rounded-md w-full' alt='news-ctrinh-trung-thuong'/>
+            <div className='text-white text-2xl flex align-text-top justify-start'>
+                Title
             </div>
         </div>
     );

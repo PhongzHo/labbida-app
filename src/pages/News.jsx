@@ -18,6 +18,7 @@ const NewsPage = () => {
   }
 
   return (
+    <>
     <div className="text-white mt-32 bg-black">
         {news.map(({ id, attributes }) => (
           <div key={id} className="list-none p-4 text-white flex">
@@ -27,15 +28,14 @@ const NewsPage = () => {
             </div>
             <p className="ml-2">
               {attributes.body}
-            </p>
-            <div>
-              {attributes.image}
-            </div>
+            </p>           
           </div>
           
         ))}
     </div>
-  );
+    <div className="text-8xl text-white bg-black mt-32"> NEWS PAGE</div>
+    </>
+  )
 };
 
 export default NewsPage;
