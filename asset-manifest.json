@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/labbida-app/static/css/main.4900c958.css",
-    "main.js": "/labbida-app/static/js/main.0f358b68.js",
-    "static/js/787.9b77ee9c.chunk.js": "/labbida-app/static/js/787.9b77ee9c.chunk.js",
-    "static/media/nhanVien.svg": "/labbida-app/static/media/nhanVien.81d77a27f3492d0a47ce8117bb845e19.svg",
-    "static/media/lababoutus.svg": "/labbida-app/static/media/lababoutus.b2d5a8692c4eed3593cfa088d109856b.svg",
-    "static/media/ctrinh1.jpg": "/labbida-app/static/media/ctrinh1.b373b97a66b2a2dab557.jpg",
-    "static/media/aramith.svg": "/labbida-app/static/media/aramith.bf2a0f863b59eb62ff4bc259c14bdc2f.svg",
-    "static/media/logotext.svg": "/labbida-app/static/media/logotext.ac41e9f094815771cba9decfcd338dcc.svg",
-    "static/media/logo.svg": "/labbida-app/static/media/logo.437d77be940c9f5334d8060a7c119d34.svg",
-    "static/media/pba.svg": "/labbida-app/static/media/pba.6b6b34bcdf2c550b1015ac4cf36f8197.svg",
-    "static/media/logoAlliex.svg": "/labbida-app/static/media/logoAlliex.8b6a118c138522f90b395f0923d64dd6.svg",
-    "static/media/helix.svg": "/labbida-app/static/media/helix.0bb4254239d05983b7b34be3113ff718.svg",
-    "index.html": "/labbida-app/index.html",
-    "main.4900c958.css.map": "/labbida-app/static/css/main.4900c958.css.map",
-    "main.0f358b68.js.map": "/labbida-app/static/js/main.0f358b68.js.map",
-    "787.9b77ee9c.chunk.js.map": "/labbida-app/static/js/787.9b77ee9c.chunk.js.map"
+    "main.css": "/static/css/main.4900c958.css",
+    "main.js": "/static/js/main.88c06169.js",
+    "static/js/787.9b77ee9c.chunk.js": "/static/js/787.9b77ee9c.chunk.js",
+    "static/media/nhanVien.svg": "/static/media/nhanVien.81d77a27f3492d0a47ce8117bb845e19.svg",
+    "static/media/lababoutus.svg": "/static/media/lababoutus.b2d5a8692c4eed3593cfa088d109856b.svg",
+    "static/media/ctrinh1.jpg": "/static/media/ctrinh1.b373b97a66b2a2dab557.jpg",
+    "static/media/aramith.svg": "/static/media/aramith.bf2a0f863b59eb62ff4bc259c14bdc2f.svg",
+    "static/media/logotext.svg": "/static/media/logotext.ac41e9f094815771cba9decfcd338dcc.svg",
+    "static/media/logo.svg": "/static/media/logo.437d77be940c9f5334d8060a7c119d34.svg",
+    "static/media/pba.svg": "/static/media/pba.6b6b34bcdf2c550b1015ac4cf36f8197.svg",
+    "static/media/logoAlliex.svg": "/static/media/logoAlliex.8b6a118c138522f90b395f0923d64dd6.svg",
+    "static/media/helix.svg": "/static/media/helix.0bb4254239d05983b7b34be3113ff718.svg",
+    "index.html": "/index.html",
+    "main.4900c958.css.map": "/static/css/main.4900c958.css.map",
+    "main.88c06169.js.map": "/static/js/main.88c06169.js.map",
+    "787.9b77ee9c.chunk.js.map": "/static/js/787.9b77ee9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4900c958.css",
-    "static/js/main.0f358b68.js"
+    "static/js/main.88c06169.js"
   ]
 }
