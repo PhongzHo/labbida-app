@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.550ecee4.css",
-    "main.js": "/static/js/main.fcba41ef.js",
+    "main.css": "/static/css/main.4c5c3d4b.css",
+    "main.js": "/static/js/main.1becdec4.js",
     "static/js/787.9b77ee9c.chunk.js": "/static/js/787.9b77ee9c.chunk.js",
     "static/media/nhanVien.svg": "/static/media/nhanVien.81d77a27f3492d0a47ce8117bb845e19.svg",
     "static/media/lababoutus.svg": "/static/media/lababoutus.b2d5a8692c4eed3593cfa088d109856b.svg",
@@ -13,12 +13,12 @@
     "static/media/logoAlliex.svg": "/static/media/logoAlliex.8b6a118c138522f90b395f0923d64dd6.svg",
     "static/media/helix.svg": "/static/media/helix.0bb4254239d05983b7b34be3113ff718.svg",
     "index.html": "/index.html",
-    "main.550ecee4.css.map": "/static/css/main.550ecee4.css.map",
-    "main.fcba41ef.js.map": "/static/js/main.fcba41ef.js.map",
+    "main.4c5c3d4b.css.map": "/static/css/main.4c5c3d4b.css.map",
+    "main.1becdec4.js.map": "/static/js/main.1becdec4.js.map",
     "787.9b77ee9c.chunk.js.map": "/static/js/787.9b77ee9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.550ecee4.css",
-    "static/js/main.fcba41ef.js"
+    "static/css/main.4c5c3d4b.css",
+    "static/js/main.1becdec4.js"
   ]
 }
