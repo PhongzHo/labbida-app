@@ -9,15 +9,14 @@ const Nav = () => {
         <Link to="/">
         <img src={logo} alt="lab-logo" />
         </Link>
-        <ul className="text-white flex items-center justify-between gap-10">
-          <Link to="/"> Trang Chủ</Link>
-          <Link to="/news"> Tin Tức</Link>
+        <ul className="text-white flex items-center justify-between gap-10 max-md:hidden max-sm:hidden">
+          <Link to="/blog"> Blog</Link>
           <Link to="/contactJob"> Liên Hệ và Tuyển Dụng</Link>
           <Link to="/library"> Thư Viện</Link>
-          <Link to="/member">
-            <button className="border-2 border-white p-2 hover:bg-slate-700 rounded-lg">
-            Thành viên LAB
-            </button>
+          <Link to="/feedback" 
+            className="border p-2 rounded-full px-4"
+          >
+            Góp ý
           </Link>
         </ul>
       </header>

@@ -1,14 +1,16 @@
 import Home from "./Home";
-import NewsPage from "./News";
+import Blog from "./Blog";
 import ContactJob from "./ContactJob";
 import Library from "./Library";
 import Member from "./Member";
+import Feedback from "./Feedback";
 
 
 export {
     Home, 
-    NewsPage,
+    Blog,
     ContactJob,
     Library,
     Member,
+    Feedback
 }

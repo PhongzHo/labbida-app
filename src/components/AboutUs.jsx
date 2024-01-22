@@ -1,4 +1,5 @@
 import { labAboutus, nhanVien } from "../assets";
+import {motion} from "framer-motion";
 
 const AboutUs = () => {
   return (
@@ -9,13 +10,15 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="grid grid-cols-2 gap-1 px-6 py-4">
-        <div>
+        <motion.div
+          whileHover={{scale:1.1}}
+        >
           <img src={labAboutus} className="h-[390px]" alt="lab-billiards" />
-        </div>
+        </motion.div>
         <div className="text-white text-2xl py-4 font-semibold cursor-default">
           Sứ Mệnh
           <div className="text-base py-4 cursor-default">
-            <span className="font-semibold">LAB Billiards</span> không chỉ là
+            <span className="font-semibold max">LAB Billiards</span> không chỉ là
             một câu lạc bộ bida thông thường, mà là điểm đến độc đáo mang đến
             trải nghiệm dịch vụ vượt trội. Chúng tôi tận tâm xây dựng không gian
             thân thiện, nơi mọi người không chỉ đến để chơi bida mà còn để tận
@@ -47,9 +50,13 @@ const AboutUs = () => {
             Với sự nhiệt huyết và chuyên nghiệp của mình, họ sẽ luôn là người bạn đồng hành đáng tin cậy trong mỗi trận đấu billiards tại LAB.
           </div>
         </div>
-        <div>
+        <motion.div
+          whileHover={{scale: 0.9,
+          rotate:-5
+          }}
+        >
           <img src={nhanVien} alt="doi-ngu-lab"/>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

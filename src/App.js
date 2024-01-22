@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components";
-import { Home,NewsPage,ContactJob,Library,Member } from "./pages";
+import { Home,Blog,ContactJob,Library,Feedback } from "./pages";
 
 function App() {
   return (
@@ -12,10 +12,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/labbida-app" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/news" element={<NewsPage />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/contactJob" element={<ContactJob />} />
           <Route path="/library" element={<Library />} />
-          <Route path="/member" element={<Member />} />
+          <Route path="/feedback" element={<Feedback />} />
         </Routes>
     </div>
 

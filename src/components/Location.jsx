@@ -28,7 +28,7 @@ const Location = () => {
             <div className="border border-white rounded-md p-4 text-white text-1xl">
                 <div className="flex pb-2"> <CiClock2 className="mr-2 text-2xl" /> Thời gian hoạt động: từ 8h30 sáng - 24h các ngày trong tuần.</div>
                 <div className="flex pb-2"> <CiLocationArrow1 className="mr-2 text-2xl" />  Địa chỉ: 235 Trần Quốc Toản, phường Bình Đa, thành phố Biên Hòa, tỉnh Đồng Nai.</div>
-                <div className="flex pb-2"> <GiRotaryPhone className="mr-2 text-2xl" />Số điện thoại: 035 950 8962.</div>
+                <div className="flex pb-2"> <GiRotaryPhone className="mr-2 text-2xl" /> <a href="tel:+84359508962" className="hover:text-red-500">Số điện thoại: 035 950 8962.</a></div>
                 <div className="flex pb-2"> <MdAlternateEmail className="mr-2 text-2xl" />Email: Lab.billiardsbh@gmail.com.</div>
                 <div className="flex pb-2"> <FaFacebook className="mr-2 text-2xl" /> <a href="https://www.facebook.com/LabbilliardsBH" className="hover:text-red-500"> Lab Billiards Biên Hòa.</a></div>
             </div>

@@ -1,13 +1,12 @@
-import { Carousel, Ticker, AboutUs, Location, News, Footer } from "../components";
+import { Carousel, Ticker, AboutUs, Location, Footer } from "../components";
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
       <Carousel />
       <Ticker />
       <AboutUs />
       <Location />
-      <News />
       <Footer />
     </div>
   );
